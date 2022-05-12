@@ -20,7 +20,7 @@ def button_callback(channel):
     GPIO.output(led_pin, 1)
     print("LED ON!")
   else:
-    GPIO.output(led.pin, 0)
+    GPIO.output(led_pin, 0)
     print("LED OFF!")
   light_on = not light_on
   
